@@ -1,0 +1,91 @@
+{
+    "version": 1,
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "Jump",
+            "id": "3c6ad5af-fd11-4476-9b4f-38949b7809c8",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "72d338ec-7f70-4340-8794-7e2876b1535a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0e7e4559-041d-4100-af86-70ff6d215046",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Dash",
+            "id": "37f7ccc7-cebb-44a5-b73e-13de2f184f82",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "5868fb83-2e48-4648-bd54-8033ca2fb337",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ab42559f-f089-4d24-a0fa-05c897303496",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Skill",
+            "id": "2acabf97-bbc2-4826-8bcc-ccb5f73dc3ed",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "cf1e96b6-87ad-444e-b782-777e3efcdb1c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "485dc679-0584-4258-bb2c-08752da9af17",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
