@@ -1,16 +1,15 @@
 using System;
 using System.Collections.Generic;
-using UnityEngine;
+
+[Serializable]
+public class KeybindData
+{
+    public string action;
+    public string key;
+}
 
 [Serializable]
 public class SaveData
 {
-    public List<KeyBinding> KeyBindings = new List<KeyBinding>();
-}
-
-[Serializable]
-public class KeyBinding
-{
-    public string actionName;  // 例: "Jump", "Reload"
-    public KeyCode key;        // 割り当てるキー
+    public List<KeybindData> binds = new();
 }

@@ -1,0 +1,56 @@
+{
+    "binds": [
+        {
+            "action": "前進",
+            "key": "W"
+        },
+        {
+            "action": "後退",
+            "key": "S"
+        },
+        {
+            "action": "左移動",
+            "key": "A"
+        },
+        {
+            "action": "右移動",
+            "key": "D"
+        },
+        {
+            "action": "ジャンプ",
+            "key": "Space"
+        },
+        {
+            "action": "リロード",
+            "key": "R"
+        },
+        {
+            "action": "左トリガー",
+            "key": "Q"
+        },
+        {
+            "action": "右トリガー",
+            "key": "E"
+        },
+        {
+            "action": "スキル１",
+            "key": "Alpha1"
+        },
+        {
+            "action": "スキル２",
+            "key": "Alpha2"
+        },
+        {
+            "action": "スキル３",
+            "key": "Alpha3"
+        },
+        {
+            "action": "スキル４",
+            "key": "Alpha4"
+        },
+        {
+            "action": "射撃",
+            "key": "Mouse0"
+        }
+    ]
+}
