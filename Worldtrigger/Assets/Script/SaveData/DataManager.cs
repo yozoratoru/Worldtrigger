@@ -7,7 +7,7 @@ public class DataManager : MonoBehaviour
 
     [HideInInspector] public SaveData data; // json変換するデータのクラス
     string filepath; // jsonファイルのパス
-    string fileName = "Data.json"; // jsonファイル名
+    string fileName = "KeybindData.json"; // jsonファイル名
 
     private void Awake()
     {
